@@ -1,0 +1,3 @@
+eval $(starship init ion)
+alias cat = "bat"
+alias ls = "exa"
