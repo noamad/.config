@@ -1,5 +1,10 @@
 local luasnip = require 'luasnip'
 require("nvim-autopairs").setup {}
+require("rust-tools").setup({})
+require("lualine").setup()
+require("nvim-tree").setup()
+require("crates").setup()
+require("Comment").setup()
 
 
 local cmp = require 'cmp'
